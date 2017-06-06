@@ -24,7 +24,7 @@ public class BDDTest {
 		given(bar.getName()).willReturn("foobar");
 		
 		//execute
-		String result = bar.getName1();
+		String result = bar.getName();
 		
 		assertThat(result, containsString("foo"));
 	}
