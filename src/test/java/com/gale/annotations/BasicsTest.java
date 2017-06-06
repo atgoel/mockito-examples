@@ -22,7 +22,7 @@ public class BasicsTest {
 	public void simpleStub() {
 		Foo foo = new Foo();
 		foo.setBar(bar);
-		when(bar.getName()).thenReturn("foobar");
+		when(bar.getName()).thenReturn("foobr");
 		
 		String result = bar.getName();
 		
