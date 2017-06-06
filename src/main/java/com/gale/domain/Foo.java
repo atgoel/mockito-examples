@@ -14,7 +14,7 @@ public class Foo {
 	
 	public void wuzzle() {
 		Bar newBar = new Bar();
-		newBar.setName("wuzzle");
+		newBar.setName("wuzzletytyfytfftyfgtf");
 		bar.wuzzle(newBar);
 	}
 
