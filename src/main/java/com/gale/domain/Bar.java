@@ -13,7 +13,7 @@ public class Bar {
 	}
 
 	public void setName(String name) {
-		this.namewww1 = name;
+		this.name = name;
 	}
 	
 }
