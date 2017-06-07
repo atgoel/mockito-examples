@@ -22,7 +22,8 @@ public class BasicsTest {
 	public void simpleStub() {
 		Foo foo = new Foo();
 		foo.setBar(bar);
-		when(bar.getName()).thenReturn("foobr");
+		when(bar.getName()).thenReturn("foo");
+		
 		
 		String result = bar.getName();
 		
